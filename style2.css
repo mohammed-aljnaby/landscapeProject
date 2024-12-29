@@ -1,0 +1,28 @@
+body {
+    background-color:#eee;
+    position: relative;
+    
+}
+
+.f1{
+
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    background-color: red;
+    transform: translate(50%, 100%);
+}
+
+@media ( min-width:1000px) {
+   .f1{
+    background-color: aqua;
+   }
+}
+
+@media (min-width:500px){
+    .f1{
+        width: 400px;
+    }
+}
